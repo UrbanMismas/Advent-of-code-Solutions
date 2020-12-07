@@ -6,14 +6,12 @@ for line in f:
     line = line.rstrip()
     if line == "":
         total = total + len(set(currentGroup))
-        print(currentGroup + ": " + str(len(set(currentGroup))))
         currentGroup = ""
     else:
         currentGroup = currentGroup + line
 
 if currentGroup != "":
     total = total + len(set(currentGroup))
-    print(currentGroup + ": " + str(len(set(currentGroup))))
     currentGroup = ""
 
 print(total)

@@ -1,6 +1,6 @@
 
 
-f = open("Day 3.txt","r")
+f = open("2020/Day 3.txt","r")
 x = 0
 trees = 0
 for line in f:

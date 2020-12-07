@@ -70,8 +70,6 @@ for document in documents:
         fails[9]+=1
         continue
     
-    print(document)
     valids = valids + 1
 
-print (fails)
 print (valids)

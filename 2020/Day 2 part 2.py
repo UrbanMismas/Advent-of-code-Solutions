@@ -1,6 +1,6 @@
 
 
-f = open("Day 2.txt","r")
+f = open("2020/Day 2.txt","r")
 paswords = []
 
 

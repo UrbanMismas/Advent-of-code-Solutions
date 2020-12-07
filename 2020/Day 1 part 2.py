@@ -1,6 +1,6 @@
 
 
-f = open("Day 1.txt","r")
+f = open("2020/Day 1.txt","r")
 numbers = []
 
 for x in f:

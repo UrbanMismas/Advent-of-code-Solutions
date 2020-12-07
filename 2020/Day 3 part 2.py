@@ -12,7 +12,7 @@ def slide(lines, right, down=1):
     
     return trees
 
-f = open("Day 3.txt","r")
+f = open("2020/Day 3.txt","r")
 lines = f.readlines()
 
 answer = slide(lines, 1) * slide(lines, 3) * slide(lines, 5) * slide(lines, 7) * slide(lines, 1, 2)
