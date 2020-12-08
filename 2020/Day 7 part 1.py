@@ -1,9 +1,12 @@
 
 def get_set_of_parrents(color, colors):
     parents = set()
+
     for parent in colors[color]["parents"]:
         if parent not in parents:
             parents = parents.union(get_set_of_parrents(parent, colors))
+
+            
     parents = parents.union(set([color]))
     return parents
 

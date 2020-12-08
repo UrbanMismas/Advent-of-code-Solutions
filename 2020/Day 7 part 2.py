@@ -1,8 +1,5 @@
 
 def total_children(color, colors):
-    if len(colors[color]["children"]) == 0:
-        return 1
-    
     children = 0
 
     for unique_child in colors[color]["children"]:
